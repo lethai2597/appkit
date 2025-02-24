@@ -213,7 +213,6 @@ export function getProjects() {
   const multichainProjects = MULTICHAIN_PERMUTATIONS.map(createProject)
 
   const projects = [...libraryDesktopProjects, ...libraryMobileProjects, ...multichainProjects]
-  console.log('projects', projects)
 
   return projects
 }
