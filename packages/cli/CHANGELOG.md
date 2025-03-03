@@ -1,5 +1,11 @@
 # @reown/appkit-cli
 
+## 1.6.10
+
+### Patch Changes
+
+- [#3757](https://github.com/reown-com/appkit/pull/3757) [`95980b9`](https://github.com/reown-com/appkit/commit/95980b955955e9e50336e91789d9838a53534558) Thanks [@tomiir](https://github.com/tomiir)! - Splits code into basic and regular appkit. Re-exports ui and scaffold components so they can be tree-shaken. Dynamically import appropiate chunks according to feature flags'
+
 ## 1.6.9
 
 ### Patch Changes
